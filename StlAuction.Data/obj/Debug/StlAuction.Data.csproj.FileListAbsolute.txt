@@ -1,0 +1,17 @@
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\StlAuction.Data.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\StlAuction.Data.pdb
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\Common.Logging.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\CSharp.StackExchange.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Common.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Interfaces.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Redis.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Text.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\StlAuction.Types.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\StlAuction.Types.pdb
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Common.xml
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Interfaces.xml
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Redis.xml
+C:\Projects\StlAuction.Data\StlAuction.Data\bin\Debug\ServiceStack.Text.xml
+C:\Projects\StlAuction.Data\StlAuction.Data\obj\Debug\StlAuction.Data.csprojResolveAssemblyReference.cache
+C:\Projects\StlAuction.Data\StlAuction.Data\obj\Debug\StlAuction.Data.dll
+C:\Projects\StlAuction.Data\StlAuction.Data\obj\Debug\StlAuction.Data.pdb

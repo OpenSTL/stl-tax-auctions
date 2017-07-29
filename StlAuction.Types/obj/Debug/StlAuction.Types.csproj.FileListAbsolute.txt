@@ -1,0 +1,4 @@
+C:\Projects\StlAuction.Data\StlAuction.Types\bin\Debug\StlAuction.Types.dll
+C:\Projects\StlAuction.Data\StlAuction.Types\bin\Debug\StlAuction.Types.pdb
+C:\Projects\StlAuction.Data\StlAuction.Types\obj\Debug\StlAuction.Types.dll
+C:\Projects\StlAuction.Data\StlAuction.Types\obj\Debug\StlAuction.Types.pdb

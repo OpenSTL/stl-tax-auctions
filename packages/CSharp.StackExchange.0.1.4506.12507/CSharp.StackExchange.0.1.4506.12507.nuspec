@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CSharp.StackExchange</id>
+    <version>0.1.4506.12507</version>
+    <title>CSharp.StackExchange</title>
+    <authors>Scott Smith</authors>
+    <owners>Scott Smith</owners>
+    <licenseUrl>http://www.opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/scottksmith95/CSharp.StackExchange</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# .NET wrapper for the StackExchange RESTful API</description>
+    <summary />
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>StackExchange</tags>
+    <dependencies>
+      <dependency id="Common.Logging" version="2.0.0" />
+      <dependency id="Spring.Social.Core" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>
