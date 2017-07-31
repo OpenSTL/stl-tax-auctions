@@ -2,43 +2,90 @@
 <!-- saved from url=(0042)http://dacresni.github.io/bidder_info.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Bidder Info</title>
-        <script type="javascript">
+        <script type="text/javascript">
             // animate accordion
+            function submitForm()
+            {
+              var errorMsg = '';
+              var formData = {
+                                name: '',
+                                phone: '',
+                                wphone: '',
+                                address: {
+                                  street: '',
+                                  city: '',
+                                  state: '',
+                                  zipcode: ''
+                                }
+                              };
+              formData.name = document.getElementById('name').value;
+              /*if (formData.name == '') {
+                makeRed('name');
+                errorMsg += 'You need to type something in the "Name" field.\n'
+              }
+              */
+              console.log(formData);
+            }
         </script>
     </head>
     <body style="margin:5% ">
         <form id="bidder_info">
             <h1>Bidder Info</h1>
-            <fieldset name="bidder">
+            <fieldset id="bidder">
                 <h2>Bidder</h2>
                 <p><label for="name">First and Last Name</label>
-                    <input type="text" id="name"></p>
+                    <br />
+                    <input type="text" id="name" size="80"></p>
                 <p><label for="phone">Phone Number</label>
                     <input type="text" id="phone"></p> <!-- style for phone numbers and restrict for numerical input -->
                 <p><label for="wphone">Work Phone Number
                     <input type="text" id="wphone"> </label></p><!-- style for phone numbers and restrict for numerical input -->
+                <p><label for="street">Street Address (Not PO Box):</label>
+                    <input type="text" id="street" size="50"></p><!-- style for phone numbers and restrict for numerical input -->
                 <p><label for="city">City</label>
-                    <input type="text" id="city"></p>
-                <p><label for="zipcode">Zip Code </label>
-                    <input type="text" id="zipcode"></p><!-- style for zip code and restrict for numerical input solve for state with code-->
+                    <input type="text" id="city" size="40">
+                    <label for="state">State</label>
+                    <input type="text" id="state" size="2">
+                    <label for="zipcode">ZIP Code </label>
+                    <input type="text" id="zipcode" size="5"></p><!-- style for zip code and restrict for numerical input solve for state with code-->
+                <p><label for="email">Email </label>
+                    <input type="text" id="email" size="70"></p><!-- style for zip code and restrict for numerical input solve for state with code-->
             </fieldset>
-            <fieldset name="corporation">
+            <fieldset id="address_on_photo_id">
+              <h3>Photo ID Address (if different from above)</h3>
+                <p><label for="id_street">Street Address: </label>
+                    <input type="text" id="id_street" size="50"></p><!-- style for phone numbers and restrict for numerical input -->
+                <p><label for="id_city">City</label>
+                    <input type="text" id="id_city" size="40">
+                    <label for="state">State</label>
+                    <input type="text" id="id_state" size="2">
+                    <label for="zipcode">ZIP Code </label>
+                    <input type="text" id="id_zipcode" size="5"></p><!-- style for zip code and restrict for numerical input solve for state with code-->
+            </fieldset>
+            <fieldset id="corporation">
                 <h2>On Behalf Of</h2>
-                <label for="name">Company Name</label>
-                    <input type="text" id="name"><br>
-                <label for="phone">Phone Number</label>
-                    <input type="text" id="phone"><br> <!-- style for phone numbers and restrict for numerical input -->
-                <label for="city">City</label>
-                    <input type="text" id="city"><br>
-                <label for="zipcode">Zip Code </label>
-                    <input type="text" id="zipcode"><br><!-- style for zip code and restrict for numerical input solve for state with code-->
+                <p><label for="name">Company Name</label>
+                    <input type="text" id="c_name"><br></p>
+                <p><label for="phone">Phone Number</label>
+                    <input type="text" id="c_phone"><br></p> <!-- style for phone numbers and restrict for numerical input -->
+                <p><label for="c_street">Street Address (Not PO Box):</label>
+                    <input type="text" id="c_street" size="50"></p><!-- style for phone numbers and restrict for numerical input -->
+                <p><label for="c_city">City</label>
+                    <input type="text" id="c_city" size="40">
+                    <label for="state">State</label>
+                    <input type="text" id="c_state" size="2">
+                    <label for="zipcode">ZIP Code </label>
+                    <input type="text" id="c_zipcode" size="5"></p><!-- style for zip code and restrict for numerical input solve for state with code-->
             </fieldset>
-            <fieldset name="office_use_only">
+            <!--
+            <fieldset id="office_use_only">
                 <h2>Office Use Only</h2>
                 <input type="text" id="bid_no" value="bid number">
                 <input type="text" id="tax_suit_no" value="suit number">
             </fieldset>
+          -->
         </form>
-    
+          <button onclick="submitForm();">Submit</button>
+
 
 </body></html>
