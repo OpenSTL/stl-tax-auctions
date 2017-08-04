@@ -1,0 +1,51 @@
+
+<!-- saved from url=(0042)http://dacresni.github.io/bidder_info.html -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lein Auction Database</title>
+    <script src="./list.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./list.css"/>
+    </head>
+    <body style="margin:5%; font-family: sans-serif; background: #EEEEEE;">
+    <div class="content" style="max-width: 800px">
+    <h1>Lein Auction Database</h1>
+    <hr />
+    <br />
+    <div id="users">
+        <input class="search" placeholder="Search" />
+        <button class="sort" data-sort="name">
+          Sort by name
+        </button>
+
+        <ul class="list">
+          <li>
+            <h3 class="name">Jonny Stromberg</h3>
+            <p class="born">1986</p>
+          </li>
+          <li>
+            <h3 class="name">Jonas Arnklint</h3>
+            <p class="born">1985</p>
+          </li>
+        </ul>
+      </div>
+      <script type="text/javascript">
+      var options = {
+        valueNames: [ 'salenumber', 'date' ]
+      };
+
+      var values = [ {
+        name: "Martina Elm",
+        born: 1986
+      }];
+
+      var userList = new List('users', options, values);
+
+      userList.add({
+        name: "Gustaf Lindqvist",
+        born: 1983
+      });
+      </script>
+    </div>
+    </body>
+</html>
